@@ -13,6 +13,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.mt-16 {
+    margin-top: 16px;
+}
+
 .mt-48 {
     margin-top: 40px;
 }
@@ -68,6 +72,7 @@ html {
 
 #nav {
     display: inline-block;
+    font-size: 0;
 }
 
 #nav li {
@@ -83,7 +88,7 @@ html {
 }
 
 #nav li a {
-    
+    font-size: 16px;
     padding: 0 24px;
     color: #fff;
     text-decoration: none;
@@ -99,11 +104,11 @@ html {
 #nav .subnav {
     display: none;
     position: absolute;
+    top: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
 }
 
 #nav .subnav li {
-
     min-width: 160px;
     background-color: #fff;
 }
@@ -136,6 +141,10 @@ html {
 
 .search-button:hover {
     background-color: #f44336;
+}
+
+.menu-icon {
+    display: none;
 }
 
 #slider {

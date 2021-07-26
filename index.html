@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,27 +9,31 @@
     <link rel="stylesheet" href="./assets/css/modal.css">
     <link rel="stylesheet" href="./assets/font_awesome/css/all.css">
     <link rel="icon" href="./assets/img/icon/ha-noi.jpg" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
     <div id="main">
         <div id="header">
             <ul id="nav">
-                <li><a href="#">Trang chủ</a></li>
-                <li><a href="#food_">Ẩm thực</a></li>
-                <li><a href="#place_">Địa điểm</a></li>
-                <li><a href="#contact_">Liên hệ</a></li>
+                <li class="close"><a href="#">Trang chủ</a></li>
+                <li class="close"><a href="#food_">Ẩm thực</a></li>
+                <li class="close"><a href="#place_">Địa điểm</a></li>
+                <li class="close"><a href="#contact_">Liên hệ</a></li>
                 <li>
                     <a href="#">Thêm<i class="down-icon fas fa-sort-down"></i></a>
                     <ul class="subnav">
-                        <li><a href="#map_">Bản đồ</a></li>
-                        <li><a href="#">Đánh giá</a></li>
-                        <li><a href="#footer">Hỗ trợ</a></li>
+                        <li class="close"><a href="#map_">Bản đồ</a></li>
+                        <li class="close"><a href="#">Đánh giá</a></li>
+                        <li class="close"><a href="#footer">Hỗ trợ</a></li>
                     </ul>
                 </li>
             </ul>
             <!-- Search button -->
             <div class="search-button">
                 <i class="fas fa-search"></i>
+            </div>
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
             </div>
         </div>
 
@@ -41,7 +45,7 @@
             </div>
         </div>
 
-        <div id="content">
+        <div class="close" id="content">
             <div id="food_" class="content-section">
                 <h2 class="heading-section">ẨM THỰC</h2>
                 <i class="slogan-section">Tinh hoa ẩm thực Việt</i>
@@ -153,7 +157,7 @@
             </div>
         </div>
 
-        <div id="footer">
+        <div class="close" id="footer">
             <div class="social-list">
                 <ul class="social-icon">
                     <li><a href=""><i class="link fab fa-facebook-square"></i></a></li>
@@ -164,7 +168,7 @@
                     <li><a href=""><i class="link fab fa-linkedin-in"></i></a></li>
                 </ul>
             </div>
-            <p class="powered">Powered by <a class="link" href="">qteefullstack</a></p>
+            <p class="powered">Powered by <a class="link" href="#">qteefullstack</a></p>
         </div>
     </div>
 
@@ -196,10 +200,11 @@
             </div>
 
             <div class="modal-footer">
-                <p>Bạn cần <a href="">hỗ trợ?</a></p>
+                <p>Bạn cần <a href="#">hỗ trợ?</a></p>
             </div>
         </div>
     </div>
     <script src="./assets/js/modal.js"></script>
+    <script src="./assets/js/res_mobile.js"></script>
 </body>
 </html>
