@@ -61,6 +61,17 @@
     #slider .slider-img {
         height: 100%;
     }
+    #slider .infor {
+        bottom: 16px;
+    }
+    #slider .infor .heading-infor {
+        font-size: 20px;
+    }
+    #slider .infor .title-infor {
+        font-size: 12px;
+        margin-top: 8px;
+        display: block;
+    }
     .content-section {
         max-width: calc(100% - 32px);
     }
