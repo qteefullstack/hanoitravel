@@ -105,5 +105,8 @@
         width: 100%;
         margin-bottom: 8px;
     }
-
+    .modal-close {
+        padding: 10px 16px;
+        font-size: 20px;
+    }
 }
