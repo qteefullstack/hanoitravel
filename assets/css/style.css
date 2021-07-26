@@ -167,9 +167,6 @@ html {
     display: block;
 }
 
-#content {
-
-}
 
 .content-section {
     width: 800px;
@@ -253,9 +250,6 @@ html {
     line-height: 24px;
     text-align: center;
     margin-top: -3px;
-}
-
-.list-place .place-item {
 }
 
 .list-place .place-item .place-img {
@@ -342,10 +336,6 @@ html {
 #footer {
     padding: 64px 16px;
     text-align: center;
-}
-
-.social-list {
-    
 }
 
 .social-list li {
